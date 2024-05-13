@@ -1,8 +1,12 @@
+import { MdRoomPreferences } from "react-icons/md"; 
+import { FiSettings } from "react-icons/fi"; 
+import { BsFillCalendar2CheckFill } from "react-icons/bs"; 
+
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import {
-  HiOutlineHome, BiCalendar, RiHomeGearFill,
-  HiOutlineUsers, AiOutlineSetting
+  HiOutlineHome, 
+  HiOutlineUsers
 }
   from "react-icons/hi";
 
@@ -64,7 +68,7 @@ function MainNav() {
         </li>
         <li>
           <StyledNavLink to="/bookings">
-            <BiCalendar />
+            <BsFillCalendar2CheckFill />
             <span>
               Bookings
             </span>
@@ -72,7 +76,7 @@ function MainNav() {
         </li>
         <li>
           <StyledNavLink to="/cabins">
-            <RiHomeGearFill />
+            <MdRoomPreferences />
             <span>
               Cabins
             </span>
@@ -88,7 +92,7 @@ function MainNav() {
         </li>
         <li>
           <StyledNavLink to="/settings">
-            <AiOutlineSetting />
+            <FiSettings />
             <span>
               Settings
             </span>
