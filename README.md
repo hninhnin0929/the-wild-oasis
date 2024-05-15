@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 - npm i @tanstack/react-query@4
 - npm i @tanstack/react-query-devtools@4
 - npm i date-fns
+- npm i react-hot-toast
