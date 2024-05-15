@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import styled from "styled-components";
 
 import { useQuery } from "@tanstack/react-query";
@@ -38,8 +39,7 @@ export default function CabinTable() {
     queryKey: ["cabin"],
     queryFn: getCabins,
   });
-  console.log(cabins);
-  console.log(error);
+
   if (isLoading) return <Spinner />;
 
   return (
