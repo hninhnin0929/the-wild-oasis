@@ -12,3 +12,4 @@ Currently, two official plugins are available:
 - npm i @tanstack/react-query-devtools@4
 - npm i date-fns
 - npm i react-hot-toast
+- npm i react-hook-form@7
